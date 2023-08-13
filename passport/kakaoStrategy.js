@@ -41,7 +41,6 @@ module.exports = () => {
     passport.serializeUser((user, done) => {
         done(null, user.kakao_id);
     });
-    
 
     passport.deserializeUser((kakao_id, done) => {
         done(null, { kakao_id });
