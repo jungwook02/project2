@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Data Input</title>
+</head>
+<body>
+    <h1>구체적인 서비스를 위한 추가 정보 기입</h1>
+    <form action="/save" method="post">
+        <label for="house">사는 지역(필수):</label>
+        <input type="text" id="house" name="house" required><br>
+
+        <label for="target">필요한 유형(필수):</label>
+        <input type="text" id="target" name="target" required><br>
+
+
+
+        <label for="preference">선호하는 데이터(선택):</label>
+        <input type="text" id="preference" name="preference"><br>
+
+        
+
+        <label for="phone">전화번호(선택):</label>
+        <input type="text" id="phone" name="phone"><br>
+
+        <button type="submit">저장</button>
+
+        <a href="/">다음에 하기</a>
+    </form>
+</body>
+</html>
