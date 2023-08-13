@@ -60,6 +60,7 @@ app.get('/add-data', (req, res) => {
 });
 
 
+
 // 데이터 저장 API
 app.post('/save', (req, res) => {
     const house = req.body.house;
